@@ -1,0 +1,51 @@
+.homepage{
+    width: 100%;
+    margin: 0 0;
+    padding: 0 0;
+    height: 4000px;
+    background: rgb(166,0,255);
+    background: linear-gradient(315deg, rgba(166,0,255,1) 20%, rgba(46,46,208,1) 50%, rgba(15,144,149,1) 80%);
+
+    
+    h1{
+        text-align: center;
+        color: white;
+        padding: 40px 40px;
+        margin: 0 0;
+        font-family: 'Anonymous Pro', monospace;
+        
+    }
+}
+.wrapper_lessons{
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    grid-column-gap: 20px;
+    a{
+        width: 100%;
+        border: 3px solid white;
+        text-decoration: none;
+        color: white;
+        height: 40px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family: 'Anonymous Pro', monospace;
+        &:hover{
+            background: white;
+            color: #0f9095;
+            transition: 0.4s;
+        }
+    }
+}
+body{
+    overflow: hidden;
+    margin: 0 0;
+    padding: 0 0;
+}
